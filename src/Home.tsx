@@ -160,7 +160,7 @@ function Home() {
             {/* Item 1 */}
             <div className="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-6">
               <img src="images/yoga.jpg" className='md:w-1/2' alt="" />
-              <div className="flex flex-col space-y-3 text-center text-darkGray md:w-1/2 md:text-left md:p-12 md:justify-between">
+              <div className="flex flex-col space-y-3 items-center text-darkGray md:w-1/2 md:text-left md:p-12 md:justify-between">
                 <h3 className="text-lg font-medium uppercase md:text-4xl">Visiting our studio for the first time?</h3>
                 <p className="text-m font-light md:text-2xl">Try a class before committing</p>
                 <a 
@@ -173,8 +173,8 @@ function Home() {
             </div>
 
             {/* Item 2 */}
-            <div className="flex flex-col flex-col-reverse space-y-3 md:flex-row md:space-y-0 md:space-x-6">
-              <div className="flex flex-col space-y-3 text-center text-darkGray md:w-1/2 md:text-left md:p-12 md:justify-between">
+            <div className="flex flex-col flex-col-reverse items-center space-y-3 md:flex-row md:space-y-0 md:space-x-6">
+              <div className="flex flex-col space-y-3 items-center text-darkGray md:w-1/2 md:text-left md:p-12 md:justify-between">
                 <h3 className="text-lg font-medium uppercase md:text-4xl">Ready to hit your fitness goals?</h3>
                 <p className="text-m font-light md:text-2xl">Book any class, anytime with no restrictions.</p>
                 <a
